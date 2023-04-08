@@ -8,3 +8,8 @@ export interface LoginIdUserDTO{
     readonly id: string;
     readonly password: string;
 }
+
+export interface LoginEmailUserDTO{
+    readonly email: string;
+    readonly password: string;
+}
