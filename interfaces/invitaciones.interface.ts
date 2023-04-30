@@ -1,6 +1,6 @@
 
 //estado puede ser => ['espera','aceptada','rechazada','cancelada']
-export interface Invitacioness{
+export interface Invitaciones{
     readonly _id :string;
     readonly user: string;
     readonly proyecto: string;
