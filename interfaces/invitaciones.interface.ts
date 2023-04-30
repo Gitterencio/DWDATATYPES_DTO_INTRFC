@@ -3,6 +3,7 @@
 export interface Invitaciones{
     readonly _id :string;
     readonly user: string;
+    readonly invitado: string;
     readonly proyecto: string;
     readonly estado: string;
     readonly createdAt: Date;
