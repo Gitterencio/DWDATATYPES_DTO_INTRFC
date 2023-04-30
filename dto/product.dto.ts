@@ -1,5 +1,5 @@
 //DTO DATA TRANSFER OBJECT
-export class CreateProductDTO{
+export interface CreateProductDTO{
     readonly name: string;
     readonly description: string;
     readonly imageURL: string;
