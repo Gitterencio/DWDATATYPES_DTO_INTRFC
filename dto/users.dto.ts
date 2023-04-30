@@ -1,3 +1,4 @@
+//DTO DATA TRANSFER OBJECT
 export interface CreateUserDTO{
     readonly name: string;
     readonly email: string;
