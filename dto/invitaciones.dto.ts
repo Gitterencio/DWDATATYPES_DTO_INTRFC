@@ -4,3 +4,9 @@ export interface CreateInvitacionDTO{
     readonly proyecto: string;
 
 }
+
+export interface UpdateEstadoInvitacionDTO{
+    readonly id: string;
+    readonly estado: string;
+
+}
