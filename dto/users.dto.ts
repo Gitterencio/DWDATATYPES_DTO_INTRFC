@@ -14,3 +14,10 @@ export interface LoginEmailUserDTO{
     readonly email: string;
     readonly password: string;
 }
+
+export interface UpdateUserDTO{
+    readonly id :string;
+    readonly name: string;
+    readonly img: { data: any, contentType: String };
+  
+}
