@@ -5,4 +5,5 @@ export interface Proyectos{
     readonly css_text: string;
     readonly js_text: string;
     readonly user: string;
+    readonly createdAt: Date;
 }

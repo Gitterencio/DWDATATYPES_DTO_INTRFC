@@ -4,4 +4,5 @@ export interface Users{
     readonly email: string;
     readonly password: string;
     readonly img: { data: any, contentType: String };
+    readonly createdAt: Date;
 }
