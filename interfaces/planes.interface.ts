@@ -1,9 +1,9 @@
 export interface Planes{
     readonly _id :string;
-    readonly name : string;
-    readonly descripcion : string;
-    readonly precio : Number;
-    readonly limitProyectos : Number;
-    readonly limitInvitadosProyectos : Number;
+    name : string;
+    descripcion : string;
+    precio : Number;
+    limitProyectos : Number;
+    limitInvitadosProyectos : Number;
     readonly createdAt : Date;
 }
