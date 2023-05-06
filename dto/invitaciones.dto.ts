@@ -7,6 +7,6 @@ export interface CreateInvitacionDTO{
 
 export interface UpdateEstadoInvitacionDTO{
     readonly id: string;
-    readonly estado: string;
+    readonly estado: 'espera'|'aceptada'|'rechazada'|'cancelada';
 
 }
