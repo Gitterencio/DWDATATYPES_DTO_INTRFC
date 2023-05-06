@@ -1,4 +1,5 @@
 export interface CreateInvitacionDTO{
+             user?: string;
     readonly invitado: string;
     readonly proyecto: string;
 
