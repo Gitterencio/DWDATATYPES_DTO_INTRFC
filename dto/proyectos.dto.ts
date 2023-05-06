@@ -4,7 +4,7 @@ export interface CreateProyectoDTO{
 }
 
 export interface UpdateProyectoDTO{
-    readonly id: string;
+    readonly _id: string;
     readonly name: string;
     readonly html_text: string;
     readonly css_text: string;
