@@ -5,6 +5,6 @@ export interface Invitaciones{
     readonly user: string;
     readonly invitado: string;
     readonly proyecto: string;
-    readonly estado: string;
+             estado: string;
     readonly createdAt: Date;
 }
