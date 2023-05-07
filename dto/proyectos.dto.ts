@@ -1,6 +1,7 @@
 export interface CreateProyectoDTO{
     readonly name: string;
     readonly descripcion?:string;
+             user?: string;
 }
 
 export interface UpdateProyectoDTO{
