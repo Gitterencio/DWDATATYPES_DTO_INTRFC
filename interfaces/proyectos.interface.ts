@@ -1,6 +1,7 @@
 export interface Proyectos{
     readonly _id :string;
             name: string;
+            descripcion?:string;
             html_text: string;
             css_text: string;
             js_text: string;
